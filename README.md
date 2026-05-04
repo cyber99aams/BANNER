@@ -18,3 +18,23 @@ https://github.com/cyber99aams/BANNER.git
 cd BANNER
 bash banner.sh
 ```
+## Derictory Name (Kali Linux)
+**Normal User**
+
+```
+nano ~/.bashrc
+
+```
+```
+export PS1="\[\e[1;32m\]┌──(\[\e[1;34m\]Cyber\[\e[38;5;19m\]㉿\[\e[1;34m\]Aams\[\e[1;32m\])-[\[\e[1;37m\]\w\[\e[1;32m\]]\n\[\e[1;32m\]└─\[\e[38;5;19m\]$ \[\e[0m\]"
+
+```
+**Root User**
+```
+nano /root/.bashrc
+
+```
+```
+export PS1="\[\e[1;32m\]┌──(\[\e[1;34m\]Root\[\e[1;31m\]㉿\[\e[1;34m\]Aams\[\e[1;32m\])-[\[\e[1;37m\]\w\[\e[1;32m\]]\n\[\e[1;32m\]└─\[\e[1;31m\]$ \[\e[0m\]"
+
+```
